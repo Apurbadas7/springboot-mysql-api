@@ -5,7 +5,7 @@ import com.AD.LoginApplication.Repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+
 
 @Service
 public class UserService2 implements UserService02{
@@ -30,7 +30,7 @@ public class UserService2 implements UserService02{
 
 
 
-    User user=new User();
+
     @Override
     public String UserData(User user) {
 

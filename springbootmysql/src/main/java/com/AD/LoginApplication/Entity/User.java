@@ -2,7 +2,7 @@ package com.AD.LoginApplication.Entity;
 
 import jakarta.persistence.*;
 
-import java.io.StringReader;
+
 
 @Entity
 @Table(name="UserEntity")
@@ -19,9 +19,7 @@ public class User {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+
 
     public String getName() {
         return name;

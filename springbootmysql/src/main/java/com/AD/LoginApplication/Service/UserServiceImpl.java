@@ -2,18 +2,17 @@ package com.AD.LoginApplication.Service;
 
 import com.AD.LoginApplication.DTO.RequestDTO;
 import com.AD.LoginApplication.DTO.ResponseDTO;
-import com.AD.LoginApplication.Entity.User;
-import com.AD.LoginApplication.Repository.UserRepo;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
-import com.AD.LoginApplication.Entity.User;
+
 
 @Service
 @Primary
 public class UserServiceImpl implements UserService {
-    @Autowired
-    UserRepo userRepo;
+
 
     @Autowired
     ResponseDTO response;
